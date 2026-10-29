@@ -147,6 +147,13 @@ WitchTab:CreateButton({
    end,
 })
 
+WitchTab:CreateButton({
+   Name = "Swarma kiosk",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/MainTreeUhh/TheHollowEvent/main/ScaryShawarmaKiosk"))()
+   end,
+})
+
 -------------------------------------------------
 -- OXIREUN TAB
 -------------------------------------------------

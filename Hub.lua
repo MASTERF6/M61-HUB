@@ -20,14 +20,13 @@ local Window = Rayfield:CreateWindow({
    KeySystem = false
 })
 
---// Tabs
-local FloorTab = Window:CreateTab("Floor", "home")
-local BaconTab = Window:CreateTab("BaconBoss", "sword")
-local FierTab = Window:CreateTab("Fier", "flame")
-local WitchTab = Window:CreateTab("WitchTree", "tree")
-local OxiTab = Window:CreateTab("Oxireun", "zap")
-local MainTab = Window:CreateTab("Game Utama", "gamepad")
-
+---// Tabs (tanpa icon dulu biar aman)
+local FloorTab = Window:CreateTab("Floor")
+local BaconTab = Window:CreateTab("BaconBoss")
+local FierTab = Window:CreateTab("Fier")
+local WitchTab = Window:CreateTab("WitchTree")
+local OxiTab = Window:CreateTab("Oxireun")
+local MainTab = Window:CreateTab("Game Utama")
 -------------------------------------------------
 -- FLOOR TAB
 -------------------------------------------------

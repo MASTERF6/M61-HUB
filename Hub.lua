@@ -62,6 +62,13 @@ BaconTab:CreateButton({
    end,
 })
 
+BaconTab:CreateButton({
+   Name = "Warden",
+   Callback = function()
+      loadstring(game:HttpGet("https://paste-web.baconbossscript.workers.dev/raw/QGyHmVCKaE"))()
+   end,
+})
+
 -------------------------------------------------
 -- FIER TAB
 -------------------------------------------------

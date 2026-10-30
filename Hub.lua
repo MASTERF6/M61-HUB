@@ -40,7 +40,7 @@ FloorTab:CreateButton({
 FloorTab:CreateButton({
 Name = "Floor 8 - Instant UGC",
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/MainTreeUhh/TheHollowEvent/main/TheHollowFloor8"))()
+      loadstring(game:HttpGet("https://paste-web.baconbossscript.workers.dev/raw/VOFqGdTtVX"))()
    end,
 })
 

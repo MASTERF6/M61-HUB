@@ -193,9 +193,23 @@ OxiTab:CreateButton({
 })
 
 OxiTab:CreateButton({
-   Name = "Moo Moo Mystery",
+   Name = "Moo Moo Mystery(67)",
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/oxireun/2026-2/refs/heads/main/MooMooMystety.lua"))()
+   end,
+})
+
+OxiTab:CreateButton({
+   Name = "Fisch",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/oxireun/2026-2/refs/heads/main/FischxThehollow.lua"))()
+   end,
+})
+
+OxiTab:CreateButton({
+   Name = "Fast auto fish",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/GrexXMeng/Mengs/refs/heads/main/library"))()
    end,
 })
 

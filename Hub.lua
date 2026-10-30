@@ -69,6 +69,20 @@ BaconTab:CreateButton({
    end,
 })
 
+BaconTab:CreateButton({
+   Name = "Animal hospital",
+   Callback = function()
+      loadstring(game:HttpGet("https://paste-web.baconbossscript.workers.dev/raw/GIHmJDbDtg"))()
+   end,
+})
+
+BaconTab:CreateButton({
+   Name = "Survive the killer",
+   Callback = function()
+      loadstring(game:HttpGet("https://paste-web.baconbossscript.workers.dev/raw/vVaoDwOvCE"))()
+   end,
+})
+
 -------------------------------------------------
 -- FIER TAB
 -------------------------------------------------

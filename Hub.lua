@@ -188,4 +188,11 @@ MainTab:CreateButton({
    end,
 })
 
+MainTab:CreateButton({
+   Name = "Peta peta",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/EnzoLeo127/Scripts/main/TheHollowPETAPETA"))()
+   end,
+})
+
 Rayfield:LoadConfiguration()
